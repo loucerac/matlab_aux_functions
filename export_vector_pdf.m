@@ -1,5 +1,14 @@
 function [h, status, cmd] = export_vector_pdf(file_name, h)
-%EXPORT_VECTOR_PDF
+%EXPORT_VECTOR_PDF Create a fully vectorized PDF
+
+% INPUT:
+% file_name: string: output base name
+% h: figure handle: figure to be exported
+%
+% OUTPUT:
+% h: figure handle
+% status: int: OS CLI status code
+% cmd: string: OS system CLI command output
 
 % build file_names
 svg_out = sprintf('%s.svg', file_name);
