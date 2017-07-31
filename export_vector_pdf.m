@@ -15,6 +15,8 @@ function [h, status, cmd] = export_vector_pdf(file_name, h)
 
 % Carlos Loucera, University of Cantabria, 2017
 
+if nargin < 2; h = gcf; end;
+
 % build file_names
 svg_out = sprintf('%s.svg', file_name);
 pdf_out = sprintf('%s.pdf', file_name);
