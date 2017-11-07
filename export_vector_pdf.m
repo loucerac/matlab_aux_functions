@@ -1,5 +1,5 @@
 function [h, status, cmd] = export_vector_pdf(file_name, h)
-%EXPORT_VECTOR_PDF Create a fully vectorized PDF
+%EXPORT_VECTOR_PDF Create a fully vectorized PDF.
 
 % NOTE: requires a functional x64 Inkscape installation in order to build
 %   a PDf with transparencies.
